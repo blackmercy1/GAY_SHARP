@@ -79,9 +79,9 @@
 
         private int EvaluateExpression(ExpressionSyntax node)
         {
-            var rootLink = node as NumberExpressionSyntax;
+            var rootLink = node as LiteralExpressionSyntax;
             if (rootLink != null)
-                return (int) rootLink.NumberToken.Value!;
+                return (int) rootLink.LiteralToken.Value!;
 
             var binaryExpression = node as BinaryExpressionSyntax;
             if (binaryExpression != null)
