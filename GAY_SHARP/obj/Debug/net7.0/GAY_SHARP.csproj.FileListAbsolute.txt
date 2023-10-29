@@ -1,0 +1,15 @@
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/bin/Debug/net7.0/GAY_SHARP
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/bin/Debug/net7.0/GAY_SHARP.deps.json
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/bin/Debug/net7.0/GAY_SHARP.runtimeconfig.json
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/bin/Debug/net7.0/GAY_SHARP.dll
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/bin/Debug/net7.0/GAY_SHARP.pdb
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.csproj.AssemblyReference.cache
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.AssemblyInfoInputs.cache
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.AssemblyInfo.cs
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.csproj.CoreCompileInputs.cache
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.dll
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/refint/GAY_SHARP.dll
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.pdb
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/GAY_SHARP.genruntimeconfig.cache
+/Users/black_mercy/RiderProjects/GAY_SHARP/GAY_SHARP/obj/Debug/net7.0/ref/GAY_SHARP.dll

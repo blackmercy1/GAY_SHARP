@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GAY_SHARP/1.0.0": {
+        "runtime": {
+          "GAY_SHARP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GAY_SHARP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
