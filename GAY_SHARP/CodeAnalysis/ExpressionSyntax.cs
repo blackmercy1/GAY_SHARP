@@ -1,9 +1,6 @@
-namespace GAY_SHARP.CodeAnalysis
+namespace GAY_SHARP.CodeAnalysis;
+
+public abstract class ExpressionSyntax : SyntaxNode
 {
-
-
-    public abstract class ExpressionSyntax : SyntaxNode
-    {
-        public override SyntaxKind Kind { get; }
-    }
+    public override SyntaxKind Kind { get; }
 }

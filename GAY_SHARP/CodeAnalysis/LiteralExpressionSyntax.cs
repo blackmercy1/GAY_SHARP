@@ -1,19 +1,17 @@
-namespace GAY_SHARP.CodeAnalysis
+namespace GAY_SHARP.CodeAnalysis;
+
+public sealed class LiteralExpressionSyntax : ExpressionSyntax
 {
+    public SyntaxToken LiteralToken { get; }
+    public override SyntaxKind Kind => SyntaxKind.LiteralExpression;
 
-    public sealed class LiteralExpressionSyntax : ExpressionSyntax
+    public LiteralExpressionSyntax(SyntaxToken literalToken)
     {
-        public SyntaxToken LiteralToken { get; }
-        public override SyntaxKind Kind => SyntaxKind.LiteralExpression;
+        LiteralToken = literalToken;
+    }
 
-        public LiteralExpressionSyntax(SyntaxToken literalToken)
-        {
-            LiteralToken = literalToken;
-        }
-
-        public override IEnumerable<SyntaxNode> GetChildren()
-        {
-            yield return LiteralToken;
-        }
+    public override IEnumerable<SyntaxNode> GetChildren()
+    {
+        yield return LiteralToken;
     }
 }

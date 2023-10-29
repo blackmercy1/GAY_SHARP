@@ -1,21 +1,19 @@
-namespace GAY_SHARP.CodeAnalysis
+namespace GAY_SHARP.CodeAnalysis;
+
+public sealed class SyntaxTree
 {
-
-    public sealed class SyntaxTree
+    public SyntaxTree(ExpressionSyntax expressionSyntax, SyntaxToken endOfFileToken)
     {
-        public SyntaxTree(ExpressionSyntax expressionSyntax, SyntaxToken endOfFileToken)
-        {
-            EndOfFileToken = endOfFileToken;
-            Root = expressionSyntax;
-        }
+        EndOfFileToken = endOfFileToken;
+        Root = expressionSyntax;
+    }
 
-        public ExpressionSyntax Root { get; }
-        public SyntaxToken EndOfFileToken { get; }
+    public ExpressionSyntax Root { get; }
+    public SyntaxToken EndOfFileToken { get; }
 
-        public static SyntaxTree Parse(string text)
-        {
-            var parser = new Parser(text);
-            return parser.Parse();
-        }
+    public static SyntaxTree Parse(string text)
+    {
+        var parser = new Parser(text);
+        return parser.Parse();
     }
 }

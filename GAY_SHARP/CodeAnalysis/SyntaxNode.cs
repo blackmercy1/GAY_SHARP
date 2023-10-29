@@ -1,10 +1,8 @@
-namespace GAY_SHARP.CodeAnalysis
+namespace GAY_SHARP.CodeAnalysis;
+
+public abstract class SyntaxNode
 {
+    public abstract SyntaxKind Kind { get; }
 
-    public abstract class SyntaxNode
-    {
-        public abstract SyntaxKind Kind { get; }
-
-        public abstract IEnumerable<SyntaxNode> GetChildren();
-    }
+    public abstract IEnumerable<SyntaxNode> GetChildren();
 }
