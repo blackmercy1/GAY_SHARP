@@ -1,9 +1,6 @@
-using System.ComponentModel.Design;
-
 namespace GAY_SHARP.CodeAnalysis
 {
-
-    public class Lexer
+    internal class Lexer
     {
         private readonly string _text;
 
