@@ -20,5 +20,4 @@ public sealed class BinaryExpressionSyntax : ExpressionSyntax
         yield return OperatorToken;
         yield return Right;
     }
-
 }

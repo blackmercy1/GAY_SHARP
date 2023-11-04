@@ -12,7 +12,10 @@ public enum SyntaxKind
     CloseParenthesisToken,
     BadToken,
     EndOfFileToken,
+    
+    //Expressions
     LiteralExpression,
     BinaryExpression,
-    ParenthesizedExpression
+    ParenthesizedExpression,
+    UnaryExpression
 }

@@ -78,6 +78,19 @@ public sealed class Evaluator
 
     private int EvaluateExpression(ExpressionSyntax node)
     {
+        var unaryExpression = node as UnaryExpressionSyntax;
+        if (unaryExpression != null)
+        {
+            var operand = EvaluateExpression(unaryExpression.Operand);
+
+            if (unaryExpression.OperatorToken.Kind == SyntaxKind.MinusToken)
+                return -operand;
+            if (unaryExpression.OperatorToken.Kind == SyntaxKind.PlusToken)
+                return operand;
+            else
+                throw new Exception($"Unecpected unray operator {unaryExpression.OperatorToken.Kind}");
+        }
+        
         var rootLink = node as LiteralExpressionSyntax;
         if (rootLink != null)
             return (int) rootLink.LiteralToken.Value!;
