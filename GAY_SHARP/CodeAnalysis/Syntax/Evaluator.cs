@@ -1,6 +1,4 @@
-using GAY_SHARP.CodeAnalysis.Syntax;
-
-namespace GAY_SHARP;
+namespace GAY_SHARP.CodeAnalysis.Syntax;
 
 public sealed class Evaluator
 {
