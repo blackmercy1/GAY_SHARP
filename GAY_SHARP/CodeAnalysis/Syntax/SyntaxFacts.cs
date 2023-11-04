@@ -1,4 +1,4 @@
-namespace GAY_SHARP.CodeAnalysis;
+namespace GAY_SHARP.CodeAnalysis.Syntax;
 
 internal static class SyntaxFacts
 {
